@@ -1,6 +1,5 @@
-main {
+.links {
+  width: 30%;
+  margin-left: 35%;
   font-family: "Montserrat", sans-serif;
-}
-h1 {
-  text-align: center;
 }
