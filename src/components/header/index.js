@@ -2,18 +2,19 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import headerLogo from "./headerLogo.png";
 import { Container, Row, Col } from "react-bootstrap";
+import "./style.css";
 
 export default function Header() {
   return (
-    <Container className="justify-content-md-center">
-      <Row>
-        <Col xs={(12, { order: 2 })} md={(4, { order: 1 })}>
-          2968 Atlanta Road SE, Smyrna, Georgia 30080
+    <Container>
+      <Row className="headerItems">
+        <Col className="address" md={{ order: 1 }}>
+          2968 Atlanta Road SE <br /> Smyrna, Georgia 30080
         </Col>
-        <Col xs={(12, { order: 1 })} md={(4, { order: 2 })}>
+        <Col className="logo" xs={{ order: "first" }} md={{ order: 2 }}>
           <img src={headerLogo} alt="painted-by-the-bee-logo" />
         </Col>
-        <Col xs={(12, { order: 3 })} md={(4, { order: 3 })}>
+        <Col className="phoneNumber" xs={{ order: "last" }} md={{ order: 3 }}>
           770.401.6458
         </Col>
       </Row>

@@ -1,0 +1,28 @@
+.Container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.headerItems {
+  max-width: auto;
+  height: 250px;
+  align-content: center;
+  margin-right: -15px;
+}
+
+img {
+  padding-top: 5em;
+  height: 200px;
+}
+
+.address,
+.logo,
+.phoneNumber {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 10pt;
+  text-align: center;
+  align-self: flex-end;
+  padding-bottom: 1em;
+}
