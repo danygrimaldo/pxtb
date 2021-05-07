@@ -7,7 +7,7 @@ import { Portfolio } from "../../pages/Portfolio";
 import { Services } from "../../pages/ServicesPage";
 import { Workshops } from "../../pages/Workshops";
 import { About } from "../../pages/About";
-import "./style.css";
+import "../../../src/App.css";
 
 export default function NavBar() {
   return (
@@ -16,7 +16,7 @@ export default function NavBar() {
         <Navbar collapseOnSelect bg="light" expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="links">
+            <Nav className="links m-auto">
               <Nav.Link eventKey="1" as={Link} to="home">
                 Home
               </Nav.Link>

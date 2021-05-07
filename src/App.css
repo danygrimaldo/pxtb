@@ -1,6 +1,87 @@
-main {
+/* Global */
+/* PXTB Gray #334049
+PANTONE 7408 Yellow #F6BE00 */
+
+.main {
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #334049;
 }
 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
   text-align: center;
+  padding-top: 5%;
+  color: #334049;
+}
+
+/* * HEADER Component */
+.Container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.headerItems {
+  max-width: auto;
+  height: 300px;
+  align-content: center;
+  margin-right: -15px;
+}
+
+img {
+  padding-top: 5em;
+  height: 200px;
+}
+
+.address,
+.logo,
+.phoneNumber {
+  font-family: "Montserrat", sans-serif;
+  color: #334049;
+  font-weight: 600;
+  font-size: 10pt;
+  text-align: center;
+  align-self: flex-end;
+  padding-bottom: 1em;
+}
+
+/* NAVBAR Component */
+.links {
+  font-family: "Montserrat", sans-serif;
+  color: #334049;
+}
+
+/* Filler Component */
+.filler {
+  min-height: 200px;
+}
+
+/* FOOTER Component */
+.footer {
+  position: sticky;
+  text-align: left;
+  width: 100%;
+  height: 150px;
+  border-top: #334049;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  margin-top: 5%;
+}
+
+.grimaldoMedia {
+  font-family: "Montserrat", sans-serif;
+  color: #334049;
+  font-size: 12px;
+}
+
+.socialMedia {
+  text-align: right;
+  color: #334049;
 }
