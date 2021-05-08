@@ -22,7 +22,9 @@ export default function Header() {
           <img src={headerLogo} alt="painted-by-the-bee-logo" />
         </Col>
         <Col className="phoneNumber" xs={{ order: "last" }} md={{ order: 3 }}>
-          770.401.6458
+          <a className="links" href="tel:1 (412) 381-5500">
+            1 (770) 401-6458
+          </a>
         </Col>
       </Row>
     </Container>

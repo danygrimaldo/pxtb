@@ -13,14 +13,26 @@ PANTONE 7408 Yellow #F6BE00 */
 }
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  font-weight: 900 !important;
+  font-size: 20px;
   text-align: center;
   padding-top: 5%;
   color: #334049;
 }
 
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500 !important;
+  font-size: 18px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: #334049;
+}
+
 /* * HEADER Component */
 .Container {
+  font-family: "Montserrat", sans-serif;
+
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -76,7 +88,7 @@ img {
 }
 
 .grimaldoMedia {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   color: #334049;
   font-size: 12px;
 }

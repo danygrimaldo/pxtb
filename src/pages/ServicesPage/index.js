@@ -26,7 +26,6 @@ export const Services = () => {
           <br />
           <br />
           <h4>The Process</h4>
-          <br />
           1. You can email us a couple images of your piece of furniture.
           Include the measurements of your piece and what you are looking for as
           an outcome for example “I want a european aged look or a more modern
