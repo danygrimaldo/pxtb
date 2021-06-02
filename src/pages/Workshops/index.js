@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Col } from "react-bootstrap";
 import "../../../src/App.css";
+import { InlineWidget } from "react-calendly";
 
 export const Workshops = () => {
   return (
@@ -32,6 +33,13 @@ export const Workshops = () => {
         passenger side of your car and you can easily carry like a small side
         table). Purchase your paint and wax at a 15% discount the day of the
         class, you may use our workshop brushes.
+        <br />
+        <br />
+        <h4 className="my-0 py-0">Schedule A Workshop</h4>
+        <p>
+          <i>Allow 2-3 hours per session</i>
+        </p>
+        <InlineWidget url="https://calendly.com/paintedbythebee/workshop" />
       </Col>
     </Container>
   );

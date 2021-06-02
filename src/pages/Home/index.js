@@ -9,7 +9,7 @@ export const Home = () => {
     <Container>
       <Image src={storefront} alt="Painted By The Bee storefront" fluid />
       <Row className="main">
-        <Col sm={{ order: First }} className="mb-5">
+        <Col sm={{ order: First }} className="mt-3 mb-5">
           Whether you’re planning on refreshing a small bedside table or
           transforming a whole room or kitchen, start your next project with
           Annie Sloan paints, waxes and accessories. Painted By The Bee is the

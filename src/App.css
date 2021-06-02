@@ -13,16 +13,24 @@ PANTONE 7408 Yellow #F6BE00 */
 }
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 900 !important;
+  font-weight: 800;
   font-size: 20px;
   text-align: center;
   padding-top: 5%;
   color: #334049;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 5%;
+  color: #334049;
+}
+
 h4 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500 !important;
+  font-weight: 500;
   font-size: 18px;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -95,4 +103,11 @@ img {
 .socialMedia {
   text-align: right;
   color: #334049;
+}
+
+.services-thumbnails {
+  max-width: 100%;
+  max-height: auto;
+  padding-top: 55px;
+  margin-top: 0;
 }

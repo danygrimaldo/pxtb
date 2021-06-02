@@ -1,13 +1,17 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Figure } from "react-bootstrap";
+import { First, Last } from "react-bootstrap/esm/PageItem";
 import "../../../src/App.css";
+import image1 from "./Craggy_Kitchen1.png";
+import image2 from "./Craggy_Kitchen2.png";
+import image3 from "./Craggy_Kitchen3.png";
 
 export const Services = () => {
   return (
     <Container>
       <h1>Custom Furniture Painting</h1>
       <Row>
-        <Col className="main" xs={8}>
+        <Col className="main" xs={12} md={{ order: First }}>
           <i>
             <b>Painted By The Bee</b>{" "}
           </i>
@@ -53,7 +57,25 @@ export const Services = () => {
           consultation to help ensure you end up with the perfect piece. There
           is a $75/hr consultation fee for this service.
         </Col>
-        <Col></Col>
+        <Col>
+          <Figure md={{ order: Last }}>
+            <Figure.Image
+              className="services-thumbnails"
+              alt="171x180"
+              src={image1}
+            />
+            <Figure.Image
+              className="services-thumbnails"
+              alt="171x180"
+              src={image2}
+            />
+            <Figure.Image
+              className="services-thumbnails"
+              alt="171x180"
+              src={image3}
+            />
+          </Figure>
+        </Col>
       </Row>
     </Container>
   );
