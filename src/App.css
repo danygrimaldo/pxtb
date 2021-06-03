@@ -111,3 +111,17 @@ img {
   padding-top: 55px;
   margin-top: 0;
 }
+
+.figure.swatch-cards {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-basis: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.row {
+  justify-content: center;
+}

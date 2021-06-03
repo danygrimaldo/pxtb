@@ -1,0 +1,273 @@
+[
+    {
+        "id": 1,
+        "name": "Amsterdam Green",
+        "image": "../Images/Amsterdam-Green.jpg",
+        "alt": "Amsterdam Green"
+    },
+    {
+        "id": 2,
+        "name": "Antibes Green",
+        "image": "./Antibes-Green.jpg",
+        "alt": "Antibes Green"
+
+    },
+    {
+        "id": 3,
+        "name": "Antoinette",
+        "image": "./Antoinette.jpg",
+        "alt": "Antoinette"
+    },
+    {
+        "id": 4,
+        "name": "Arles",
+        "image": "./Arles.jpg",
+        "alt": "Arles"
+    },
+    {
+        "id": 5,
+        "name": "Athenian Black",
+        "image": "./Athenian-Black.jpg",
+        "alt": "Athenian Black"
+    },
+    {
+        "id": 6,
+        "name": "Aubusson Blue",
+        "image": "./Aubusson-Blue.jpg",
+        "alt": "Aubusson Blue"
+    },
+    {
+        "id": 7,
+        "name": "Barcelona Orange",
+        "image": "./Barcelona-Orange.jpg",
+        "alt": "Barcelona Orange"
+    },
+    {
+        "id": 8,
+        "name": "Burgundy",
+        "image": "./Burgundy.jpg",
+        "alt": "Burgundy"
+    },
+    {
+        "id": 9,
+        "name": "Capri Pink",
+        "image": "./Capri-Pink.jpg",
+        "alt": "Capri Pink"
+    },
+    {
+        "id": 10,
+        "name": "Chateau Grey",
+        "image": "./Chateau-Grey.jpg",
+        "alt": "Chateau Grey"
+    },
+    {
+        "id": 11,
+        "name": "Chicago Grey",
+        "image": "./Chicago-Grey.jpg",
+        "alt": "Chicago Grey"
+    },
+    {
+        "id": 12,
+        "name": "Coco",
+        "image": "./Coco.jpg",
+        "alt": "Coco"
+    },
+    {
+        "id": 13,
+        "name": "Country Grey",
+        "image": "./Country-Grey.jpg",
+        "alt": "Country Grey"
+    },
+    {
+        "id": 14,
+        "name": "Cream",
+        "image": "./Cream.jpg",
+        "alt": "Cream"
+    },
+    {
+        "id": 15,
+        "name": "Duck Egg Blue",
+        "image": "./Duck-Egg-Blue.jpg",
+        "alt": "Duck Egg Blue"
+    },
+    {
+        "id": 16,
+        "name": "Emile",
+        "image": "./Emile.jpg",
+        "alt": "Emile"
+    },
+    {
+        "id": 17,
+        "name": "Emperors Silk",
+        "image": "./Emperors-Silk.jpg",
+        "alt": "Emperors Silk"
+    },
+    {
+        "id": 18,
+        "name": "English-Yellow",
+        "image": "./English-Yellow.jpg",
+        "alt": "English-Yellow"
+    },
+    {
+        "id": 19,
+        "name": "Firle",
+        "image": "./Firle.jpg",
+        "alt": "Firle"
+    },
+    {
+        "id": 20,
+        "name": "Florence",
+        "image": "./Florence.jpg",
+        "alt": "Florence"
+    },
+    {
+        "id": 21,
+        "name": "French-Linen",
+        "image": "./French-Linen.jpg",
+        "alt": "French-Linen"
+    },
+    {
+        "id": 22,
+        "name": "Giverny",
+        "image": "./Giverny.jpg",
+        "alt": "Giverny"
+    },
+    {
+        "id": 23,
+        "name": "Graphite",
+        "image": "./Graphite.jpg",
+        "alt": "Graphite"
+    },
+    {
+        "id": 24,
+        "name": "Greek Blue",
+        "image": "./Greek-Blue.jpg",
+        "alt": "Greek Blue"
+    },
+    {
+        "id": 25,
+        "name": "Henrietta",
+        "image": "./Henrietta.jpg",
+        "alt": "Henrietta"
+    },
+    {
+        "id": 26,
+        "name": "Honfleur",
+        "image": "./Honfleur.jpg",
+        "alt": "Honfleur"
+    },
+    {
+        "id": 27,
+        "name": "Lem-Lem",
+        "image": "./Lem-Lem.jpg",
+        "alt": "Lem-Lem"
+    },
+    {
+        "id": 28,
+        "name": "Louis Blue",
+        "image": "./Louis-Blue.jpg",
+        "alt": "Louis Blue"
+    },
+    {
+        "id": 29,
+        "name": "Napoleonic Blue",
+        "image": "./Napoleonic-Blue.jpg",
+        "alt": "Napoleonic Blue"
+    },
+    {
+        "id": 30,
+        "name": "Old Ochre",
+        "image": "./Old-Ochre.jpg",
+        "alt": "Old Ochre"
+    },
+    {
+        "id": 31,
+        "name": "Old Violet",
+        "image": "./Old-Violet.jpg",
+        "alt": "Old Violet"
+    },
+    {
+        "id": 32,
+        "name": "Old White",
+        "image": "./Old-White.jpg",
+        "alt": "Old White"
+    },
+    {
+        "id": 33,
+        "name": "Olive",
+        "image": "./Olive.jpg",
+        "alt": "Olive"
+    },
+    {
+        "id": 35,
+        "name": "Original",
+        "image": "./Original.jpg",
+        "alt": "Original"
+    },
+    {
+        "id": 36,
+        "name": "Oxford Navy",
+        "image": "./Oxford-Navy.jpg",
+        "alt": "Oxford Navy"
+    },
+    {
+        "id": 37,
+        "name": "Paloma",
+        "image": "./Paloma.jpg",
+        "alt": "Paloma"
+    },
+    {
+        "id": 38,
+        "name": "Paris Grey",
+        "image": "./Paris-Grey.jpg",
+        "alt": "Paris Grey"
+    },
+    {
+        "id": 39,
+        "name": "Primer Red",
+        "image": "./Primer-Red.jpg",
+        "alt": "Primer Red"
+    },
+    {
+        "id": 40,
+        "name": "Provence",
+        "image": "./Provence.jpg",
+        "alt": "Provence"
+    },
+    {
+        "id": 41,
+        "name": "Pure",
+        "image": "./Pure.jpg",
+        "alt": "Pure"
+    },
+    {
+        "id": 42,
+        "name": "Rodmell",
+        "image": "./Rodmell.jpg",
+        "alt": "Rodmell"
+    },
+    {
+        "id": 43,
+        "name": "Scandinavian Pink",
+        "image": "./Scandinavian-Pink.jpg",
+        "alt": "Scandinavian Pink"
+    },
+    {
+        "id": 44,
+        "name": "Svenska Blue",
+        "image": "./Svenska-Blue.jpg",
+        "alt": "Svenska Blue"
+    },
+    {
+        "id": 45,
+        "name": "Tilton",
+        "image": "./Tilton.jpg",
+        "alt": "Tilton"
+    },
+    {
+        "id": 46,
+        "name": "Versailles",
+        "image": "./Versailles.jpg",
+        "alt": "Versailles"
+    }
+]

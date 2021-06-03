@@ -3,6 +3,7 @@ import { Container, Image, Row, Table, Col } from "react-bootstrap";
 import storefront from "./pxtb_storefront.jpg";
 import "../../../src/App.css";
 import { First, Last } from "react-bootstrap/esm/PageItem";
+// import Swatches from "../../components/swatches";
 
 export const Home = () => {
   return (
@@ -52,6 +53,9 @@ export const Home = () => {
           </Table>
         </Col>
       </Row>
+      {/* <Row>
+        <Swatches />
+      </Row> */}
     </Container>
   );
 };

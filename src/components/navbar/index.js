@@ -6,6 +6,7 @@ import { Home } from "../../pages/Home";
 import { Portfolio } from "../../pages/Portfolio";
 import { Services } from "../../pages/ServicesPage";
 import { Workshops } from "../../pages/Workshops";
+import { ChalkPaint } from "../../pages/ChalkPaint";
 import { About } from "../../pages/About";
 import "../../../src/App.css";
 
@@ -13,7 +14,7 @@ export default function NavBar() {
   return (
     <Container>
       <Router>
-        <Navbar collapseOnSelect bg="light" expand="lg">
+        <Navbar.Toggle collapseOnSelect bg="light" expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="links m-auto">
@@ -29,12 +30,15 @@ export default function NavBar() {
               <Nav.Link eventKey="2" as={Link} to="workshops">
                 Worshops
               </Nav.Link>
+              <Nav.Link eventKey="2" as={Link} to="chalk-paint">
+                Chalk Paint
+              </Nav.Link>
               <Nav.Link eventKey="2" as={Link} to="about">
                 About
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Navbar>
+        </Navbar.Toggle>
 
         <Switch>
           <Route
@@ -71,6 +75,16 @@ export default function NavBar() {
             path="/workshops"
             render={(props) => (
               <Workshops
+                {...props}
+                timestamp={new Date().toString()}
+                key={props.location.key}
+              />
+            )}
+          />
+          <Route
+            path="/chalk-paint"
+            render={(props) => (
+              <ChalkPaint
                 {...props}
                 timestamp={new Date().toString()}
                 key={props.location.key}
