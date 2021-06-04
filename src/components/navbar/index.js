@@ -14,31 +14,36 @@ export default function NavBar() {
   return (
     <Container>
       <Router>
-        <Navbar.Toggle collapseOnSelect bg="light" expand="lg">
+        <Navbar collapseOnSelect bg="light" expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="links m-auto">
-              <Nav.Link eventKey="1" as={Link} to="home">
+              <Nav.Link className="px-4" eventKey="1" as={Link} to="home">
                 Home
               </Nav.Link>
-              <Nav.Link eventKey="2" as={Link} to="portfolio">
+              <Nav.Link className="px-4" eventKey="2" as={Link} to="portfolio">
                 Portfolio
               </Nav.Link>
-              <Nav.Link eventKey="2" as={Link} to="services">
+              <Nav.Link className="px-4" eventKey="2" as={Link} to="services">
                 Services
               </Nav.Link>
-              <Nav.Link eventKey="2" as={Link} to="workshops">
+              <Nav.Link className="px-4" eventKey="2" as={Link} to="workshops">
                 Worshops
               </Nav.Link>
-              <Nav.Link eventKey="2" as={Link} to="chalk-paint">
-                Chalk Paint
+              <Nav.Link
+                className="px-4"
+                eventKey="2"
+                as={Link}
+                to="chalk-paint"
+              >
+                Annie Sloan Chalk Paint
               </Nav.Link>
-              <Nav.Link eventKey="2" as={Link} to="about">
+              <Nav.Link className="px-4" eventKey="2" as={Link} to="about">
                 About
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Navbar.Toggle>
+        </Navbar>
 
         <Switch>
           <Route

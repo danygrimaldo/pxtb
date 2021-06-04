@@ -125,3 +125,19 @@ img {
 .row {
   justify-content: center;
 }
+
+.as-logos {
+  width: 280px;
+  padding-top: 10px;
+}
+
+.react-player {
+  width: 50vw;
+  height: min-content;
+  position: relative;
+}
+
+/* .react-player {
+  width: 100%;
+  height: 100%;
+} */
