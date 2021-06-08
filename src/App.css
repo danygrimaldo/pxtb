@@ -76,9 +76,14 @@ img {
   color: #334049;
 }
 
+.mainImg {
+  border-radius: 25px;
+  padding: 25px;
+}
+
 /* Filler Component */
 .filler {
-  min-height: 200px;
+  min-height: 20px;
 }
 
 /* FOOTER Component */
@@ -129,6 +134,13 @@ img {
 .as-logos {
   width: 280px;
   padding-top: 10px;
+}
+
+.as-logos2 {
+  width: 300px;
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .react-player {
