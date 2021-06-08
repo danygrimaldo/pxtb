@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import headerLogo from "./headerLogo.png";
 import { Container, Row, Col } from "react-bootstrap";
+import { Home } from "../../pages/Home";
 import "../../../src/App.css";
 
 export default function Header() {
@@ -19,7 +20,9 @@ export default function Header() {
           </a>
         </Col>
         <Col className="logo" xs={{ order: "first" }} md={{ order: 2 }}>
-          <img src={headerLogo} alt="painted-by-the-bee-logo" />
+          <a href="/" src={Home}>
+            <img src={headerLogo} alt="painted-by-the-bee-logo" />
+          </a>
         </Col>
         <Col className="phoneNumber" xs={{ order: "last" }} md={{ order: 3 }}>
           <a className="links" href="tel:1 (412) 381-5500">

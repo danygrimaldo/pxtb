@@ -14,7 +14,7 @@ export default function NavBar() {
   return (
     <Container>
       <Router>
-        <Navbar collapseOnSelect bg="light" expand="lg">
+        <Navbar collapseOnSelect bg="light" expand="lg" sticky="top">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="links m-auto">

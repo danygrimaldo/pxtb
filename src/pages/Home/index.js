@@ -9,15 +9,16 @@ export const Home = () => {
   return (
     <Container>
       <Image src={storefront} alt="Painted By The Bee storefront" fluid />
+
       <Row className="main">
-        <Col sm={{ order: First }} className="mt-3 mb-5">
+        <Col lg={{ order: First }} className="mt-3 mb-5">
           Whether you’re planning on refreshing a small bedside table or
           transforming a whole room or kitchen, start your next project with
           Annie Sloan paints, waxes and accessories. Painted By The Bee is the
           home of Chalk Paint® in the Smyrna/Vinings area. Be sure to also ask
           about our workshops to learn techniques to help you get started.
         </Col>
-        <Col sm={{ order: Last }}>
+        <Col lg={{ order: Last }}>
           <Table borderless>
             <thead>
               <tr>
@@ -53,9 +54,6 @@ export const Home = () => {
           </Table>
         </Col>
       </Row>
-      {/* <Row>
-        <Swatches />
-      </Row> */}
     </Container>
   );
 };
