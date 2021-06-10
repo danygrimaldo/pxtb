@@ -12,59 +12,6 @@ import { Workshops } from "../../pages/Workshops";
 
 export const Home = () => {
   return (
-    //ORIGINAL LAYOUT
-
-    // <Container>
-    //   <Image src={storefront} alt="Painted By The Bee storefront" fluid />
-
-    //   <Row className="main">
-    //     <Col lg={{ order: First }} className="mt-3 mb-5">
-    //       Whether you’re planning on refreshing a small bedside table or
-    //       transforming a whole room or kitchen, start your next project with
-    //       Annie Sloan paints, waxes and accessories. Painted By The Bee is the
-    //       home of Chalk Paint® in the Smyrna/Vinings area. Be sure to also ask
-    //       about our workshops to learn techniques to help you get started.
-    //     </Col>
-    //     <Col lg={{ order: Last }}>
-    //       <Table borderless>
-    //         <thead>
-    //           <tr>
-    //             <th colSpan="2">Store Hours</th>
-    //           </tr>
-    //         </thead>
-    //         <tbody>
-    //           <tr>
-    //             <td>Sunday</td>
-    //             <td>Closed</td>
-    //           </tr>
-    //           <tr>
-    //             <td>Monday</td>
-    //             <td>Closed</td>
-    //           </tr>
-    //           <tr>
-    //             <td>Wednesday</td>
-    //             <td>11:00am - 05:30pm</td>
-    //           </tr>
-    //           <tr>
-    //             <td>Thursday</td>
-    //             <td>11:00am - 05:30pm</td>
-    //           </tr>
-    //           <tr>
-    //             <td>Friday</td>
-    //             <td>11:00am - 05:30pm</td>
-    //           </tr>
-    //           <tr>
-    //             <td>Saturday</td>
-    //             <td>11:00am - 04:00pm</td>
-    //           </tr>
-    //         </tbody>
-    //       </Table>
-    //     </Col>
-    //   </Row>
-    // </Container>
-
-    //NEW LAYOUT
-
     <Container>
       <Row className="main">
         <Col>
@@ -72,7 +19,7 @@ export const Home = () => {
             <Image
               className="mainImg"
               src={storefront}
-              alt="Painted By The Bee storefront"
+              alt="storefront"
               fluid
               rounded
             />
