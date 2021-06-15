@@ -2,38 +2,27 @@ import React from "react";
 import { Container, Image, Row, Table, Col, Figure } from "react-bootstrap";
 import storefront from "./pxtb_storefront.jpg";
 import "../../../src/App.css";
-import { First, Last } from "react-bootstrap/esm/PageItem";
 import stockistLogo from "./US_AS_Stockist-logo.jpg";
 import workshopLogo from "./US_AS_Workshop-logo.jpg";
 import { ChalkPaint } from "../../pages/ChalkPaint";
 import { Workshops } from "../../pages/Workshops";
 
-// import Swatches from "../../components/swatches";
-
 export const Home = () => {
   return (
     <Container>
       <Row className="main">
-        <Col>
-          <Row>
-            <Image
-              className="mainImg"
-              src={storefront}
-              alt="storefront"
-              fluid
-              rounded
-            />
-          </Row>
-        </Col>
-
-        <Col lg={{ order: First }} className="mt-3 mb-3">
+        <Col lg={8}>
+          <Image className="mainImg" src={storefront} alt="storefront" fluid />
           Whether you’re planning on refreshing a small bedside table or
           transforming a whole room or kitchen, start your next project with
           Annie Sloan paints, waxes and accessories. Painted By The Bee is the
           home of Chalk Paint® in the Smyrna/Vinings area. Be sure to also ask
           about our workshops to learn techniques to help you get started.
+        </Col>
+
+        <Col>
           <Row>
-            <Table lg={{ order: Last }} className="mt-3 mb-5" borderless>
+            <Table borderless>
               <thead>
                 <tr>
                   <th colSpan="2">Store Hours</th>
@@ -67,27 +56,19 @@ export const Home = () => {
               </tbody>
             </Table>
           </Row>
+          <Row>
+            <a href="/chalk-paint" src={ChalkPaint}>
+              <Figure className="as-logos2">
+                <Figure.Image alt="Stockist Logo" src={stockistLogo} />
+              </Figure>
+            </a>
+            <a href="/workshops" src={Workshops}>
+              <Figure className="as-logos2">
+                <Figure.Image alt="Workshop Logo" src={workshopLogo} />
+              </Figure>
+            </a>
+          </Row>
         </Col>
-      </Row>
-      <Row>
-        <a href="/chalk-paint" src={ChalkPaint}>
-          <Figure>
-            <Figure.Image
-              className="as-logos2"
-              alt="Stockist Logo"
-              src={stockistLogo}
-            />
-          </Figure>
-        </a>
-        <a href="/workshops" src={Workshops}>
-          <Figure>
-            <Figure.Image
-              className="as-logos2"
-              alt="Workshop Logo"
-              src={workshopLogo}
-            />
-          </Figure>
-        </a>
       </Row>
     </Container>
   );

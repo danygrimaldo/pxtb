@@ -88,7 +88,11 @@ img {
 }
 
 .mainImg {
-  padding: 25px;
+  text-align: center;
+  padding-right: 2%;
+  padding-top: 0;
+  padding-bottom: 5%;
+  margin-top: 10px;
 }
 
 /* Filler Component */
@@ -147,8 +151,13 @@ img {
 }
 
 .as-logos2 {
-  width: 300px;
+  width: 150px;
   height: auto;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 5%;
+  margin-top: -50px;
+}
+
+.photo-banner {
+  width: 100%;
+  margin-bottom: 3%;
 }

@@ -1,7 +1,10 @@
 import React from "react";
-import { Container, Col } from "react-bootstrap";
+import { Container, Col, Image } from "react-bootstrap";
 import "../../../src/App.css";
 import { InlineWidget } from "react-calendly";
+import workshopStock1 from "./Images/workshop_01.jpg";
+import workshopStock2 from "./Images/workshop_02.jpg";
+import workshopStock3 from "./Images/workshop_03.jpg";
 
 export const Workshops = () => {
   return (
@@ -11,7 +14,14 @@ export const Workshops = () => {
         <br />
         Workshops
       </h1>
+
       <Col className="main">
+        <Image
+          className="photo-banner"
+          src={workshopStock1}
+          alt="workshop Stock photo 1"
+          fluid
+        />
         <h4 className="my-0 py-0">The Essentials Workshop</h4>
         <p>
           <i>Introducing the Annie Sloan Method</i>
@@ -24,6 +34,12 @@ export const Workshops = () => {
         accessories you purchase the end of the class.
         <br />
         <br />
+        <Image
+          className="photo-banner"
+          src={workshopStock2}
+          alt="workshop Stock photo 2"
+          fluid
+        />
         <h4 className="my-0 py-0">Open Studio Workshop</h4>
         <p>
           <i>DIY Projects From Home</i>
@@ -35,9 +51,15 @@ export const Workshops = () => {
         class, you may use our workshop brushes.
         <br />
         <br />
+        <Image
+          className="photo-banner"
+          src={workshopStock3}
+          alt="workshop Stock photo 3"
+          fluid
+        />
         <h4 className="my-0 py-0">Schedule A Workshop</h4>
         <p>
-          <i>Allow 2-3 hours per session</i>
+          <i>Allow 2-3 hours per session, 4 person max per session</i>
         </p>
         <InlineWidget url="https://calendly.com/paintedbythebee/workshop" />
       </Col>
