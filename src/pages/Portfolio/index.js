@@ -3,12 +3,12 @@ import { Container, Carousel } from "react-bootstrap";
 import featured1 from "./Images/Craggy_Kitchen1.png";
 import featured2 from "./Images/Craggy_Kitchen2.png";
 import featured3 from "./Images/Craggy_Kitchen3.png";
-// import Gallery from "../../components/gallery";
+import Gallery from "../../components/gallery";
 
 export const Portfolio = () => {
   return (
     <Container>
-      <Carousel fade interval="3000">
+      <Carousel fade interval="2500">
         <Carousel.Item>
           <img
             className="d-block w-100 h-auto"
@@ -31,15 +31,15 @@ export const Portfolio = () => {
           />
         </Carousel.Item>
       </Carousel>
-      <h1> Featured Project </h1>
+      <h1> Revitalize Your Kitchen </h1>
       <div className="pt-2">
-        Complete an entire piece during our workshop and learn techniques along
-        the way! Bring your own small piece (small enough to fit in the
-        passenger side of your car and you can easily carry like a small side
-        table). Purchase your paint and wax at a 15% discount the day of the
-        class, you may use our workshop brushes.
+        Ask us about our kitchen painting services! We have changed the way
+        guests view kitchens simply by changing colors, hardware, and sometimes
+        texture. We welcome projects big or small. Send us an email at
+        info@paintedbythebee to request your quote today. You will be happy you
+        did.
       </div>
-      {/* <Gallery /> */}
+      <Gallery />
     </Container>
   );
 };

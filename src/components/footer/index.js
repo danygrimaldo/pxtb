@@ -9,7 +9,13 @@ export default function Footer() {
     <Container>
       <Row className="footer border-top border-dark">
         <Col className="grimaldoMedia">
-          &copy; Powered by Grimaldo Media {new Date().getFullYear()}
+          <a
+            href="https://danygrimaldo.github.io/Grimaldo-Media/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            &copy; Powered by Grimaldo Media {new Date().getFullYear()}
+          </a>
         </Col>
         <Col className="socialMedia">
           <SocialIcon
