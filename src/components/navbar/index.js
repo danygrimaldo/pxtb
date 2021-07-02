@@ -7,7 +7,7 @@ import { Portfolio } from "../../pages/Portfolio";
 import { Services } from "../../pages/ServicesPage";
 import { Workshops } from "../../pages/Workshops";
 import { ChalkPaint } from "../../pages/ChalkPaint";
-import { About } from "../../pages/About";
+// import { About } from "../../pages/About";
 import "../../../src/App.css";
 
 export default function NavBar() {
@@ -38,9 +38,9 @@ export default function NavBar() {
               >
                 Annie Sloan Chalk Paint
               </Nav.Link>
-              <Nav.Link className="px-4" eventKey="2" as={Link} to="about">
+              {/* <Nav.Link className="px-4" eventKey="2" as={Link} to="about">
                 About
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -96,7 +96,7 @@ export default function NavBar() {
               />
             )}
           />
-          <Route
+          {/* <Route
             path="/about"
             render={(props) => (
               <About
@@ -105,7 +105,7 @@ export default function NavBar() {
                 key={props.location.key}
               />
             )}
-          />
+          /> */}
           <Route
             exact
             path="/"
