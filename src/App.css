@@ -17,7 +17,8 @@ h1 {
   font-weight: 800;
   font-size: 20px;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   color: #334049;
 }
 
@@ -157,9 +158,11 @@ img {
   margin-top: -50px;
 }
 
-.photo-banner {
+.workshop-thumbnail {
   width: 100%;
-  margin-bottom: 3%;
+  padding-top: 0;
+  object-fit: cover;
+  object-position: center;
 }
 
 .gallery {

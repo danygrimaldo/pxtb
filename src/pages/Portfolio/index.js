@@ -42,7 +42,13 @@ export const Portfolio = () => {
         Ask us about our kitchen painting services! We have changed the way
         guests view kitchens simply by changing colors, hardware, and sometimes
         texture. We welcome projects big or small. Send us an email at{" "}
-        <a href="mailto:info@paintedbythebee.com">info@paintedbythebee.com</a>{" "}
+        <a
+          href="mailto:info@paintedbythebee.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          info@paintedbythebee.com
+        </a>{" "}
         to request your quote today. You will be happy you did.
       </div>
 

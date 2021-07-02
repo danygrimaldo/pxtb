@@ -19,7 +19,13 @@ export const Services = () => {
           hand with a brush. If you are looking for a one of a kind furniture
           transformation with character send us an email with a picture and your
           desired outcome and we can give you a quote – email us at{" "}
-          <a href="mailto:info@paintedbythebee.com">info@paintedbythebee.com</a>
+          <a
+            href="mailto:info@paintedbythebee.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            info@paintedbythebee.com
+          </a>
           <br />
           <br />
           All furniture items need to be delivered to our Smyrna location. Once
