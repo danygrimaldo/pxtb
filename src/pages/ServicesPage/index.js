@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col, Figure } from "react-bootstrap";
 import { First, Last } from "react-bootstrap/esm/PageItem";
 import "../../../src/App.css";
-import image1 from "./Craggy_Kitchen1.png";
-import image2 from "./Craggy_Kitchen2.png";
-import image3 from "./Craggy_Kitchen3.png";
+import image1 from "./Craggy_Kitchen1.jpg";
+import image2 from "./Craggy_Kitchen2.jpg";
+import image3 from "./Craggy_Kitchen3.jpg";
 
 export const Services = () => {
   return (

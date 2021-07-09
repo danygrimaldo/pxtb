@@ -19,7 +19,7 @@ export default function Footer() {
         </Col>
         <Col className="socialMedia">
           <SocialIcon
-            className="m-4 auto"
+            className="mr-2"
             url="https://instagram.com/paintedbythebee"
             bgColor="#334049"
             fgColor="#F6BE00"

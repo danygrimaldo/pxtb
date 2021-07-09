@@ -115,7 +115,6 @@ img {
 }
 
 .grimaldoMedia {
-  /* font-family: "Montserrat", sans-serif; */
   color: #334049;
   font-size: 12px;
 }
@@ -123,6 +122,7 @@ img {
 .socialMedia {
   text-align: right;
   color: #334049;
+  margin-left: 5%;
 }
 
 .services-thumbnails {
@@ -165,11 +165,10 @@ img {
   object-position: center;
 }
 
-.gallery {
+.gallery > .row {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
 .thumbs {

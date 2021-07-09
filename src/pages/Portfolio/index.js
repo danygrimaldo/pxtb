@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Carousel, Row, Image } from "react-bootstrap";
-import featured1 from "./Images/Craggy_Kitchen1.png";
-import featured2 from "./Images/Craggy_Kitchen2.png";
-import featured3 from "./Images/Craggy_Kitchen3.png";
+import featured1 from "./Images/Craggy_Kitchen1.jpg";
+import featured2 from "./Images/Craggy_Kitchen2.jpg";
+import featured3 from "./Images/Craggy_Kitchen3.jpg";
 import img001 from "./Images/cabinet001.jpeg";
 import img002 from "./Images/cabinet002.jpeg";
 import img003 from "./Images/cabinet003.jpeg";
@@ -52,7 +52,7 @@ export const Portfolio = () => {
         to request your quote today. You will be happy you did.
       </div>
 
-      <Carousel fade interval="2500">
+      <Carousel fade interval="2000">
         <Carousel.Item>
           <img
             className="d-block w-100 h-auto"
