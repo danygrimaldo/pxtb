@@ -38,7 +38,7 @@ export const Portfolio = () => {
   return (
     <Container>
       <h1> Revitalize Your Kitchen </h1>
-      <div className="pt-2">
+      <div className="pt-2 pb-5">
         Ask us about our kitchen painting services! We have changed the way
         guests view kitchens simply by changing colors, hardware, and sometimes
         texture. We welcome projects big or small. Send us an email at{" "}
@@ -55,21 +55,21 @@ export const Portfolio = () => {
       <Carousel fade interval="2000">
         <Carousel.Item>
           <img
-            className="d-block w-100 h-auto"
+            className="d-block w-100 h-auto p-0"
             src={featured1}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 h-auto"
+            className="d-block w-100 h-auto p-0"
             src={featured2}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 h-auto"
+            className="d-block w-100 h-auto p-0"
             src={featured3}
             alt="Third slide"
           />

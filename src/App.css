@@ -126,10 +126,21 @@ img {
 }
 
 .services-thumbnails {
-  max-width: 100%;
-  max-height: auto;
-  padding-top: 55px;
-  margin-top: 0;
+  max-height: 500px;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 0;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.services-thumbnails2 {
+  max-height: 420px;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 0;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .figure.swatch-cards {
@@ -168,14 +179,12 @@ img {
 .gallery > .row {
   width: 100%;
   flex-flow: row wrap;
-  justify-content: space-evenly;
 }
 
 .thumbs {
   width: 200px;
-  height: 200px;
-  justify-content: center;
-  padding-top: 20px;
+  height: 260px;
+  padding: 5px;
   object-fit: cover;
   object-position: center;
 }

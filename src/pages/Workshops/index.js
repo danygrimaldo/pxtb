@@ -92,6 +92,10 @@ export const Workshops = () => {
               </a>
               {""} along with the desired dates and the amount of guests in your
               party as pricing is per person.
+              <br />
+              <br />
+              If you would like to schedule a private workshop outside of these
+              dates, we can arrange that as well.
             </i>
           </p>
 
@@ -104,15 +108,15 @@ export const Workshops = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>Saturday, July 10</td>
+                  <td>Saturday, Jul 10</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
                 <tr>
-                  <td>Saturday, August 14</td>
+                  <td>Saturday, Aug 14</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
                 <tr>
-                  <td>Saturday, September 4</td>
+                  <td>Saturday, Sept 4</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
               </tbody>
@@ -127,15 +131,15 @@ export const Workshops = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>Saturday, July 24</td>
+                  <td>Saturday, Jul 24</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
                 <tr>
-                  <td>Saturday, August 28</td>
+                  <td>Saturday, Aug 28</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
                 <tr>
-                  <td>Saturday, September 25</td>
+                  <td>Saturday, Sept 25</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
               </tbody>
