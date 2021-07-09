@@ -7,7 +7,8 @@ import "../../../src/App.css";
 export default function Footer() {
   return (
     <Container>
-      <Row className="footer border-top border-dark">
+      <hr class="rounded" />
+      <Row className="footer">
         <Col className="grimaldoMedia">
           <a
             href="https://danygrimaldo.github.io/Grimaldo-Media/"
