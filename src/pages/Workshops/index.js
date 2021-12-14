@@ -108,15 +108,15 @@ export const Workshops = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>Saturday, Jul 10</td>
+                  <td>Saturday, Jan 15</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
                 <tr>
-                  <td>Saturday, Aug 14</td>
+                  <td>Saturday, Feb 12</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
                 <tr>
-                  <td>Saturday, Sept 4</td>
+                  <td>Saturday, Mar 12</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
               </tbody>
@@ -131,15 +131,15 @@ export const Workshops = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>Saturday, Jul 24</td>
+                  <td>Saturday, Jan 29</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
                 <tr>
-                  <td>Saturday, Aug 28</td>
+                  <td>Saturday, Feb 26</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
                 <tr>
-                  <td>Saturday, Sept 25</td>
+                  <td>Saturday, Mar 26</td>
                   <td>11:00am - 2:00pm</td>
                 </tr>
               </tbody>
