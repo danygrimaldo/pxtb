@@ -130,10 +130,10 @@ export const Workshops = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                {/* <tr>
                   <td>Saturday, Jan 29</td>
                   <td>11:00am - 2:00pm</td>
-                </tr>
+                </tr> */}
                 <tr>
                   <td>Saturday, Feb 26</td>
                   <td>11:00am - 2:00pm</td>
