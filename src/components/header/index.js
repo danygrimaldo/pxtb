@@ -12,11 +12,15 @@ export default function Header() {
         <Col className="address" md={{ order: 1 }}>
           <a
             className="links"
-            href="https://www.google.com/maps/place/Painted+by+The+Bee/@33.8810534,-84.5160204,17z/data=!3m1!4b1!4m5!3m4!1s0x88f511e28ee0a3f7:0xe3c366267fb1a8c!8m2!3d33.8810227!4d-84.5138149"
+            href="https://www.google.com/maps/place/bobbie+sharma+(The+Treehouse)/@33.8437823,-84.4926701,17z/data=!3m1!4b1!4m5!3m4!1s0x88f510cf2d2e02c3:0xea2ff4940979a60b!8m2!3d33.8437846!4d-84.4904706"
             target="_blank"
             rel="noopener noreferrer"
           >
-            2968 Atlanta Road SE <br /> Smyrna, Georgia 30080
+            4500 W Village Place
+            <br />
+            Suite 1010
+            <br />
+            Smyrna, GA 30080
           </a>
         </Col>
         <Col className="logo" xs={{ order: "first" }} md={{ order: 2 }}>
