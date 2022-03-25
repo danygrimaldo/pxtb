@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Image, Row, Table, Col, Figure } from "react-bootstrap";
-import storefront from "./pxtb_storefront.jpg";
+import { Container, Row, Table, Col, Figure } from "react-bootstrap";
+// import { Container, Image, Row, Table, Col, Figure } from "react-bootstrap";
+// import storefront from "./pxtb_storefront.jpg";
 import "../../../src/App.css";
 import stockistLogo from "./US_AS_Stockist-logo.jpg";
 import workshopLogo from "./US_AS_Workshop-logo.jpg";
